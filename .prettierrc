@@ -1,0 +1,38 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "arrowParens": "always",
+  "plugins": ["prettier-plugin-organize-imports"],
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "parser": "markdown"
+      }
+    },
+    {
+      "files": [
+        ".vscode/launch.json",
+        ".vscode/settings.json",
+        "tsconfig.json"
+      ],
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.sol",
+      "options": {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": false,
+        "bracketSpacing": false,
+        "explicitTypes": "always",
+        "semi": true
+      }
+    }
+  ]
+}

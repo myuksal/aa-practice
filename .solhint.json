@@ -1,0 +1,13 @@
+{
+  "extends": "solhint:recommended",
+  "plugins": ["prettier"],
+  "rules": {
+    "compiler-version": ["error", ">=0.8.2"],
+    "explicit-types": ["warn", "explicit"],
+    "func-visibility": ["off", { "ignoreConstructors": true }],
+    "immutable-vars-naming": ["off"],
+    "mark-callable-contracts": ["off"],
+    "no-global-import": ["off"],
+    "prettier/prettier": "error"
+  }
+}

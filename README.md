@@ -11,3 +11,8 @@ $ nr hh init
 # 컨트렉트를 json과 typescript 코드로 빌드한다.
 $ nr hh compile
 ```
+
+```sh
+# 컨트렉트를 json과 typescript 코드로 빌드한다.
+$ nr solhint:init
+```
